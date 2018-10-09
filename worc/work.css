@@ -1,0 +1,53 @@
+.background {
+    background-color: #ffa500;
+    width: 70%;
+    height: 150px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x1 {
+    position: relative;
+}
+
+.menu li  {
+    padding: 40px;
+    display: flex;
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    transition: 400ms;
+}
+
+.menu .a:hover {
+    color: #f4c70d;
+    background-image: url(business-3152586_1920.jpg);
+    background-size: 100%;
+   text-decoration: underline;
+    transition: 400ms;
+        
+}
+
+
+
+.podmenu_home {
+    background-color: #fff500;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -10px;
+    margin-top: 10px;
+
+    
+}
+
+
+.podmenu_home li:hover{
+    background-color: black;
+    color: white;
+  padding: 10px;
+}

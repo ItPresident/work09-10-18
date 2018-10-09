@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="work.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <div class="menu">
+            <li class="x1 a"><a>HOME</a>
+                <ul class="podmenu_home"> <li><a>van</a></li>
+                    <li><a>ty</a></li>
+                    <li><a>fre</a></li>
+                    <li><a>for</a></li>
+                </ul></li>
+            <li class="x2 a"><a>SCRIPT</a></li>
+            <li class="x3 a"><a>CONTACT</a></li>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+    $('.x1').click(function(event) {
+      $('.podmenu_home').toggle();
+    });
+});
+    
+  </script>
+</body>
+</html>
